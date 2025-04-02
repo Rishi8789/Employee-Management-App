@@ -21,8 +21,12 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "Employee Management App",
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

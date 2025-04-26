@@ -4,7 +4,8 @@ const _layout = () => {
   return (
     <Stack>
       <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="employees" />
+      <Stack.Screen name="employees" options={{ headerShown: false }} />
+      <Stack.Screen name="adddetails" options={{ headerShown: false }} />
     </Stack>
   );
 };
